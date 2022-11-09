@@ -16,7 +16,7 @@ public class Dz {
     public static void main(String[] args) {
         
     Scanner in = new Scanner (System.in);
-    System.out.print ("Введите три любых целых числа:");
+    System.out.print ("Введите три любых целых числа: ");
     int num1 = in.nextInt();
     int num2 = in.nextInt();
     int num3 = in.nextInt();
