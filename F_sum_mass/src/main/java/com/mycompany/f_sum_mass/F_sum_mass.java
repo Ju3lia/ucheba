@@ -3,15 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.fsum;
+package com.mycompany.f_sum_mass;
 
 /**
  *
  * @author Painkiller
  */
-public class Fsum {
-    
-    public static int Summ(int [][]Mx)
+public class F_sum_mass {
+
+     public static int Summ(int [][]Mx)
 {
         int sum = 0;
         int row = Mx.length;
@@ -19,7 +19,7 @@ public class Fsum {
 
             for(int i = 0;i<row;i++)
         {  
-                for(int j = 0;j<=i;j++)
+                for(int j = 0;j<column;j++)
             { 
                 sum = sum + Mx[i][j];
             }    
@@ -27,14 +27,14 @@ public class Fsum {
     return sum; 
 }
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int [][]Mx = 
     {
-        {2,1,1,1,1},
-        {1,2,1,1,1},
-        {1,1,2,1,1},
-        {1,1,1,2,1},
-        {1,1,1,1,2},
+        {1,1,1,1,1},
+        {1,1,1,1,1},
+        {1,1,1,1,1},
+        {1,1,1,1,1},
+        {1,1,1,1,1},
             
     };
         int i=0;

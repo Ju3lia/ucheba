@@ -16,7 +16,7 @@ public class Massum {
        int [][] Mas = {{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1}};
        int row = Mas.length;
        for (int i = 0; i<row; i++){
-           for (int j=0; j<=i; j++){
+           for (int j=0; j<row; j++){
                sum = sum + Mas[i][j];
            }
        }

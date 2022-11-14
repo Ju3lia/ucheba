@@ -11,4 +11,5 @@
         <maven.compiler.target>18</maven.compiler.target>
         <exec.mainClass>com.mycompany.massive2.Massive2</exec.mainClass>
     </properties>
+    <name>poiskchislavmas</name>
 </project>

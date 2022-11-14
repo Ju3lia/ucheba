@@ -3,13 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.massive2;
+package com.mycompany.poisk_in_mas;
+
 import java.util.Scanner;
+
 /**
  *
  * @author Painkiller
  */
-public class Massive2 {
+public class Poisk_in_mas {
 
     public static void main(String[] args) 
     {
@@ -51,7 +53,4 @@ public class Massive2 {
         }
         System.out.println(i);
     }
-       
 }
-
-
