@@ -39,6 +39,6 @@ public class Sum_poboch_d {
         for(i=0; i<Mx.length; i++){
             Summ(Mx);
         } 
-        System.out.println("Сумма равна = " + rez);
+        System.out.println("Сумма равна = " + rez );
     }
 }
