@@ -10,12 +10,12 @@ package com.mycompany.factory;
  */
 public class HighBudgetMachine extends MashineFactory {
     public Processor getProcessor (){
-    return ExpensiveProcessor();
+    return new ExpensiveProcessor();
     }
     public Monitor getMonitor () {
-    return HighResolutions ();
+    return new HighResolutions ();
     }
     public HardDisk getHardDisk () {
-        return BigHD ();
+        return new BigHD ();
     }   
 }

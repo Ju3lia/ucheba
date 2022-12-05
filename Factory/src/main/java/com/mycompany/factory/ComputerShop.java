@@ -8,14 +8,9 @@ package com.mycompany.factory;
  *
  * @author Painkiller
  */
-public class LowBudgetMachine extends MashineFactory {
-    public Processor getProcessor (){
-    return new CheapProcessor();
-    }
-    public Monitor getMonitor () {
-    return new LowResolutions ();
-    }
-    public HardDisk getHardDisk () {
-        return new SmallHD ();
+public class ComputerShop {
+     MashineFactory category;
+    public ComputerShop (MashineFactory category){
+       this.category = category;
     }   
 }
