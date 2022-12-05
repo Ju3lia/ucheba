@@ -12,16 +12,32 @@ package com.mycompany.massumd;
 public class Massumd {
 
     public static void main(String[] args) {
-         int sum = 0;
-         int [][] Mas = {{0,1,1,1},{0,0,1,1},{0,0,0,1},{0,0,0,0}};
-         Mas = new int [4][4];
-         int row = Mas.length;
-         int column = Mas[0].length;
-         for (int i = 0; i<row; i++){
-             for (int j=0; j = ; j++){
-                 sum = sum + Mas[i][j];
-             }  
-         }
-         System.out.println ( "Сумма равна = " + sum);
-    }
+        int [][]Mx = 
+    {
+        {2,1,1,1,1},
+        {1,2,1,1,1},
+        {1,1,2,1,1},
+        {1,1,1,2,1},
+        {1,1,1,1,2},
+     };
+     
+    int i=0;
+    int j=0;
+    int row = 0;
+    int column=0;
+    
+    row = Mx.length;
+    column =Mx[0].length;
+      
+    for(i=0; i< row;i++)
+    {
+        for(j = 0;j <= i;j++)
+        {
+            System.out.print(Mx[i][j]+ " ");
+            
+        }
+    
+        System.out.println();   
+    }      
+}
 }
