@@ -13,4 +13,12 @@ public class ComputerShop {
     public ComputerShop (MashineFactory category){
        this.category = category;
     }   
+    public void AssembleMashine (){
+Processor processor = category.getProcessor();
+HardDisk hdd = category.getHardDisk();
+Monitor monitor = category.getMonitor();
+processor.PerformOperation();
+hdd.StoreData();
+monitor.DisplayPicture();
+}
 }

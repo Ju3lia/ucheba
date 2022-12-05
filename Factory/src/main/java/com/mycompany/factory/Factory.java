@@ -12,16 +12,9 @@ package com.mycompany.factory;
 public class Factory {
 
     public static void main(String[] args) {
-       Factory Computer = new Factory();
+       Factory factory = new Factory();
     }
+}
 
 
-public void AssembleMashine (){
-Processor processor = category.getProcessor();
-HardDisk hdd = category.getHardDisk();
-Monitor monitor = category.getMonitor();
-processor.PerformOperation();
-hdd.StoreData();
-monitor.DisplayPicture();
-}
-}
+
